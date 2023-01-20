@@ -67,12 +67,12 @@ void push3(int ele){
      }
 }
 
- char pop3(){
+ int pop3(){
      if(top3==-1){
          printf("stack empty");
      }
      else{
-          char ele=stack3[top3];
+          int ele=stack3[top3];
           top3--;
           return ele;
      }
